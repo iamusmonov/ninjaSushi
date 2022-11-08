@@ -3,7 +3,7 @@ import Link from "next/link";
 function HeaderBtn(props) {
   return (
     <>
-      <Link href={props.link} className={`${props.class} bg-red-300 border`}>
+      <Link href={props.link} className={`${props.class}`}>
         {props.icon}
       </Link>
     </>
